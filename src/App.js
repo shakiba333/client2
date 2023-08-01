@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
-import Post from '../../components/Post/Post'
+import Post from './components/Post/Post'
 // import Add from './components/Add'
 // import Edit from './components/Edit'
-import PostForm from '../../components/PostForm/PostForm'
+import PostForm from './components/PostForm/PostForm'
 import { Routes, Route } from 'react-router-dom'
-import NavBar from '../../components/NavBar/NavBar'
-import HomePage from '../HomePage/HomePage'
-import PostDetail from '../../components/PostDetail/PostDetail'
+import NavBar from './components/NavBar/NavBar'
+import HomePage from './pages/HomePage/HomePage'
+import PostDetail from './components/PostDetail/PostDetail'
 
 
 
